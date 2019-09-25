@@ -6,6 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class Plugin extends JavaPlugin{
 
 	private static Plugin instance;
+	private static BetterSleep betterSleep;
 	
 	public static Plugin getInstance() {
 		return instance;
@@ -14,11 +15,10 @@ public class Plugin extends JavaPlugin{
 	@Override
 	public void onEnable() {
 		instance = this;
-		Bukkit.getPluginManager().registerEvents(new BetterSleep(), this);
+		betterSleep = new BetterSleep();
+		Bukkit.getPluginManager().registerEvents(betterSleep, this);
 	}
 	@Override
-	public void onDisable() {
-		
-	}
+	public void onDisable() {}
 	
 }

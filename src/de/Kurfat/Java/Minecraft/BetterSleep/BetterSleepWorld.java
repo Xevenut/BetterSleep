@@ -125,10 +125,5 @@ public class BetterSleepWorld implements Listener{
 			return "A new day is starting";
 		}
 	}
-	
-	
-	
-	
-	
-	
+
 }
