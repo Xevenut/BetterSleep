@@ -17,7 +17,7 @@ import org.bukkit.event.player.PlayerBedEnterEvent.BedEnterResult;
 public class BetterSleepWorld implements Listener{
 
 	private World world;
-	private List<UUID> sleep = new ArrayList<>();
+	protected List<UUID> sleep = new ArrayList<>();
 	
 	public BetterSleepWorld(World world) {
 		this.world = world;

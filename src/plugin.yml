@@ -1,5 +1,5 @@
 name: BetterSleep
 version: 1.1
 author: Kurfat
-main: de.Kurfat.Java.Minecraft.BetterSleep.Plugin
+main: de.Kurfat.Java.Minecraft.BetterSleep.BetterSleep
 api-version: 1.14
