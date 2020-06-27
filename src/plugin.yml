@@ -1,5 +1,5 @@
 name: BetterSleep
-version: 1.1
+version: 1.4.0
 author: Kurfat
 main: de.Kurfat.Java.Minecraft.BetterSleep.BetterSleep
-api-version: 1.14
+api-version: 1.16
